@@ -1,0 +1,13 @@
+cat <<EOF > .gitignore
+.env
+*.pem
+__pycache__/
+*.log
+*.csv
+/lib/
+/data/
+/logs/
+/.sql/
+/lib/vm.sh
+EOF
+
